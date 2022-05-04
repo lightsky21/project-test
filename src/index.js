@@ -1,5 +1,5 @@
 import './sass/main.scss';
-(() => {
+
   const refs = {
     openModalBtn: document.querySelector('[data-modal-open]'),
     closeModalBtn: document.querySelector('[data-modal-close]'),
@@ -12,4 +12,3 @@ import './sass/main.scss';
   function toggleModal() {
     refs.modal.classList.toggle('is-hidden');
   }
-})();
